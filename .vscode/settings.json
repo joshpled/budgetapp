@@ -1,0 +1,30 @@
+{
+    "todohighlight.include": [
+    
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss"
+    ],
+    "todohighlight.keywords": [
+        {
+            "text": "Component:", // with a regex pattern defined, this setting isn't used, but is useful as a name for this section
+            "color": "white",
+            "backgroundColor": "darkgreen"
+        },
+        {
+            "text": "PAGE:",
+            "color": "darkblue",
+            "backgroundColor": "lightgreen"
+        },
+        {
+            "text": "NOTE:",
+            "color": "black",
+            "backgroundColor": "lightyellow",
+        }
+    ]
+}
